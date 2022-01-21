@@ -38,7 +38,9 @@ uk = 28
 * You can get incorrect or unformatted results if you pass arryas or nested objects.
 
 * Please strict to this structure of the command line argument to get the correct output
-  ./a.out '{"subdomain.and.domains.separated.by.dot.com": 100, "example.com": 50, "github.com": 74}'
+* 
+  ./a.out '{"subdomain.and.domains.separated.by.dot.com": 100, "example.org": 50, "github.in": 74}'
+  
 # each url should always be followed up by a number after colon(:)
 
 
